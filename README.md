@@ -12,8 +12,10 @@
 2. Распаковать директории `storage.zip` и `data.zip`.
 4. Запустить докер команду
    ```bash
-   docker build -t rise .
-   docker run -it --name go_rise -d -p 127.0.0.1:7860:7860 --rm rise
+   # запуск сборки образа с вашим название **image_name**
+   docker build -t image_name .
+   # запуск контейнера с вашим названием **name** из образа **image_name**
+   docker run -it --name name -d -p 127.0.0.1:7860:7860 --rm image_name
    ```
 5. Тогда на localhost 127.0.0.1:7860:7860 будет запущен чат бот
 
