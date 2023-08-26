@@ -40,20 +40,3 @@ COPY . .
     
     
 CMD ["python3", "./app.py"]
-
-
-
-
-
-# WORKDIR /home/edamirov/Development/SPB_hack/make_docker/saiga_13b_llamacpp_retrieval_qa
-# WORKDIR /playground
-
-# run the command
-# CMD ["/bin/bash"]
-# CMD ["jupyter", "notebook", "--port=8789", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
-# CMD ["python3", "app.py"]
-
-# ENTRYPOINT [ "python3" ]
-# CMD [ "export","FLASK_APP=run.py" ]
-# CMD [ "set", "FLASK_APP=run.py" ]
-# CMD [ "flask", "run", "--host=0.0.0.0" ]
