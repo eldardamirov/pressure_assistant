@@ -21,7 +21,7 @@
    # запуск сборки образа с вашим название image_name
    docker build -t image_name .
    # запуск контейнера с вашим названием name из образа image_name
-   docker run -it --name name -d -p 127.0.0.1:7860:7860 --rm image_name
+   docker run -it --name name -p 127.0.0.1:7860:7860 --rm image_name
    ```
 3. После исполения появится ссылка при переходе по которой будет запущен чат бот.
 
