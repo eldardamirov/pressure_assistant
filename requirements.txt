@@ -1,4 +1,4 @@
-llama-cpp-python==0.1.53
+llama-cpp-python==0.1.78
 langchain==0.0.174
 huggingface-hub==0.14.1
 chromadb==0.3.23
