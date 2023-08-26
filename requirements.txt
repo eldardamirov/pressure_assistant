@@ -1,0 +1,8 @@
+llama-cpp-python==0.1.53
+langchain==0.0.174
+huggingface-hub==0.14.1
+chromadb==0.3.23
+pdfminer.six==20221105
+unstructured==0.6.10
+gradio==3.32.0
+tabulate
