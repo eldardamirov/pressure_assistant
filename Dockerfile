@@ -24,7 +24,6 @@ RUN pip3 install setuptools ;\
     pip3 install pandas ;\
     pip3 install matplotlib ;\
     pip3 install torch torchvision; \
-    # pip3 install tensorflow; \
     pip3 install jupyterlab; \
     pip3 install llama-cpp-python==0.1.78; \
     pip3 install langchain==0.0.174; \
